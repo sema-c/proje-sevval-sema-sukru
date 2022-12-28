@@ -1,4 +1,11 @@
-struct soru soruvecevaplar[10]=
+struct soruCevapPuan
+{
+    char soru[200];
+    int cevap;
+    int sorupuani;
+};
+
+struct soruCevapPuan soruvecevaplar[10] = 
 {
     { "1. Soru: İlk olarak gün içerisinde yaptığın rutin işlerini yaparken endişe duyuyor musun? :", 1 ,3},
     { "2. Soru: Peki kalabalık bir ortama girerken bütün gözler sanki senin üstündeymiş gibi hissediyor musun? :", 1 ,5},
